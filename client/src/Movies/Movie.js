@@ -6,6 +6,7 @@ const Movie = (props) => {
   const [movie, setMovie] = useState();
 
   const {id} = useParams()
+
  
   useEffect(() => {
     
